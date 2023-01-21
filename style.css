@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://media4.giphy.com/media/3ZlL0r03ErVm0/giphy.webp?cid=ecf05e47cot0zk0lygunigldvo6n2ft9iigtqlp19kn5uwii&rid=giphy.webp&ct=g");
+    /* background-size: cover; */
+    
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: rgb(172, 62, 240);
+    text-shadow: 3px 2px 4px rgb(0,0,0);
+    border-radius: 3px;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 6px;
+    position: relative;
+
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: rgb(172, 62, 240);
+    opacity: 3;
+    color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    text-shadow: 3px 2px 4px rgb(0,0,0);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    opacity: .9;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    font-size: 30px;
+    background: rgb(181, 124, 216);
+}
